@@ -1,0 +1,128 @@
+{
+	"groups": [
+		{
+			"name": "cmis.server"
+		},
+		{
+			"name": "com.ampersand.vault.services"
+		}
+	],
+	"properties": [
+		{
+			"name": "cmis.server.url",
+			"type": "java.lang.String",
+			"description": "CMIS Server URL (includes protocol, server name / ip, and port."
+		},
+		{
+			"name": "cmis.server.browser_url",
+			"type": "java.lang.String",
+			"description": "CMIS browser URL."
+		},
+		{
+			"name": "cmis.server.aos_url",
+			"type": "java.lang.String",
+			"description": "Office service URL."
+		},
+		{
+			"name": "cmis.server.api_url",
+			"type": "java.lang.String",
+			"description": "Alfresco browser api URL."
+		},
+		{
+			"name": "cmis.server.search_url",
+			"type": "java.lang.String",
+			"description": "Alfresco search api URL."
+		},
+		{
+			"name": "cmis.server.workflow_url",
+			"type": "java.lang.String",
+			"description": "Alfresco workflow api URL."
+		},
+		{
+			"name": "cmis.server.repositry",
+			"type": "java.lang.String",
+			"description": "CMIS repostry."
+		},
+		{
+			"name": "cmis.server.root_node_path",
+			"type": "java.lang.String",
+			"description": "CMIS root node path."
+		},
+		{
+			"name": "cmis.server.cts_root_path",
+			"type": "java.lang.String",
+			"description": "Root path on CMIS server for CTS."
+		},
+		{
+			"name": "cmis.server.cts_root_id",
+			"type": "java.lang.String",
+			"description": "Object Id for Root Folder on CMIS server for CTS."
+		},
+		{
+			"name": "cmis.server.cts_archived_root_path",
+			"type": "java.lang.String",
+			"description": "Archive Root path on CMIS server for CTS."
+		},
+		{
+			"name": "cmis.server.cts_archived_root_id",
+			"type": "java.lang.String",
+			"description": "Object Id for Archive Root Folder on CMIS server for CTS."
+		},
+		{
+			"name": "cmis.server.webclient_memory_size",
+			"type": "java.lang.Integer",
+			"description": "memory size confiuration for WebClient used in consumeing CMIS request."
+		},
+		{
+			"name": "cmis.server.default_max_items_per_page",
+			"type": "java.lang.Integer",
+			"description": "CMIS Pagable Response Default Page Size."
+		},
+		{
+			"name": "cmis.server.user",
+			"type": "java.lang.String",
+			"description": "CMIS user for loading types."
+		},
+		{
+			"name": "cmis.server.password",
+			"type": "java.lang.String",
+			"description": "CMIS password for loading types."
+		},
+		{
+			"name": "keycloak.realm",
+			"type": "java.lang.String"
+		},
+		{
+			"name": "keycloak.auth-server-url",
+			"type": "java.lang.String"
+		},
+		{
+			"name": "keycloak.ssl-required",
+			"type": "java.lang.String"
+		},
+		{
+			"name": "keycloak.resource",
+			"type": "java.lang.String"
+		},
+		{
+			"name": "keycloak.credentials.secret",
+			"type": "java.lang.String"
+		},
+		{
+			"name": "keycloak.use-resource-role-mappings",
+			"type": "java.lang.Boolean"
+		},
+		{
+			"name": "keycloak.cors",
+			"type": "java.lang.Boolean"
+		},
+		{
+			"name": "keycloak.allow-any-hostname",
+			"type": "java.lang.Boolean"
+		},
+		{
+			"name": "keycloak.bearer-only",
+			"type": "java.lang.Boolean"
+		}
+	]
+}
